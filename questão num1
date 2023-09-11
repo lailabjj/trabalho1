@@ -1,0 +1,27 @@
+//calcular a área de um triângulo;
+
+
+const num1 = prompt("digite o primeiro número");
+const valor1 = parseFloat(num1);
+
+const num2 = prompt("digite o segundo número");
+const valor2 = parseFloat(num2);
+
+const num3 = prompt("digite o terceiro número");
+const valor3 = parseFloat(num3)
+
+//somar todos os valores e dividir por três
+
+
+const somaNums = (valor1 + valor2 + valor3)
+const CalculoArit = (somaNums / 3)
+
+
+//impressão do resultado da soma e da divisão
+
+
+console.log("seus valores digitados foram.");
+console.log("seu primeiro número é:", num1);
+console.log("seu segundo número é:", num2);
+console.log("seu terceiro número é:", num3);
+console.log("o resultado da média aritmética é:", CalculoArit);
